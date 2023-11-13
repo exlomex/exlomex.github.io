@@ -1,0 +1,206 @@
+.main__trainers {
+}
+.trainers {
+    padding: 170px 0;
+
+    .trainers__heading {
+        max-width: 100%;
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    &-inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 30px;
+
+        .card-tr {
+            width: 448px;
+            height: 720px; // 630 x 330
+            background: var(--black);
+            color: var(--white);
+            &__img {
+                width: 100%;
+            }
+
+            &__wrapper {
+                padding: 49px 44px;
+            }
+
+            &__top {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 22px;
+                border-bottom: 1px solid #49505a;
+                margin-bottom: 22px;
+            }
+            &__name {
+                font-size: 1.5em;
+                font-weight: 600;
+                line-height: 110%;
+            }
+            &__review {
+            }
+            &__spec {
+                margin-bottom: 5px;
+
+                font-family: "Lato";
+                font-size: 1.25em;
+                font-weight: 700;
+                line-height: 145%;
+                text-transform: capitalize;
+            }
+            &__desc {
+                margin-bottom: 35px;
+                color: #858585;
+                font-family: "Lato";
+                font-size: 1.25em;
+                font-weight: 500;
+                line-height: 145%;
+                text-transform: capitalize;
+            }
+            &__link {
+                display: flex;
+                gap: 0 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1465px) {
+    .trainers {
+        .trainers__heading {
+            h2 {
+            }
+
+            p {
+            }
+        }
+
+        &-inner {
+            .card-tr {
+                height: 630px;
+                width: 330px;
+
+                &__img {
+                }
+
+                &__wrapper {
+                }
+
+                &__top {
+                }
+                &__name {
+                }
+                &__review {
+                }
+                &__spec {
+                }
+                &__desc {
+                }
+                &__link {
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .trainers {
+        padding: 80px 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .trainers {
+        padding: 80px 0;
+
+        .trainers__heading {
+            h2 {
+                font-size: 1.75em;
+            }
+
+            p {
+                font-size: 0.75em;
+            }
+        }
+
+        &-inner {
+            .card-tr {
+                height: 525px;
+                width: 310px;
+                &__img {
+                }
+
+                &__wrapper {
+                    padding: 25px;
+                }
+
+                &__top {
+                }
+                &__name {
+                    font-size: 1.25em;
+                }
+                &__review {
+                }
+                &__spec {
+                    font-size: 1em;
+                }
+                &__desc {
+                    font-size: 1em;
+                    margin-bottom: 20px;
+                }
+                &__link {
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .trainers {
+        .trainers__heading {
+            h2 {
+                font-size: 1.375em;
+            }
+
+            p {
+            }
+        }
+
+        &-inner {
+            .card-tr {
+                height: 476px;
+                width: 255px;
+                &__img {
+                }
+
+                &__wrapper {
+                    padding: 25px;
+                }
+
+                &__top {
+                }
+                &__name {
+                    font-size: 1.25em;
+                }
+                &__review {
+                }
+                &__spec {
+                    font-size: 1em;
+                }
+                &__desc {
+                    font-size: 1em;
+                }
+                &__link {
+                }
+            }
+        }
+    }
+}

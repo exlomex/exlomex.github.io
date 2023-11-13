@@ -1,0 +1,108 @@
+/* Inter Font */
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Regular"),
+        local("Inter-Regular"),
+        url("../fonts/inter/InterTight-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Medium"),
+        local("Inter-Medium"),
+        url("../fonts/inter/InterTight-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter SemiBold"),
+        local("Inter-SemiBold"),
+        url("../fonts/inter/InterTight-SemiBold.woff") format("woff");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Bold"),
+        local("Inter-Bold"),
+        url("../fonts/inter/InterTight-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter ExtraBold"),
+        local("Inter-ExtraBold"),
+        url("../fonts/inter/InterTight-ExtraBold.woff") format("woff");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Black"),
+        local("Inter-Black"),
+        url("../fonts/inter/InterTight-Black.woff") format("woff");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Black Italic"),
+        local("Inter-Black Italic"),
+        url("../fonts/inter/InterTight-BlackItalic.woff") format("woff");
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+
+/* Lato Font */
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato Regular"),
+        local("Lato-Regular"),
+        url("../fonts/lato/Lato-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Lato";
+    src: local("Lato Medium"),
+        local("Lato-Medium"),
+        url("../fonts/lato/Lato-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Lato";
+    src: local("Lato SemiBold"),
+        local("Lato-SemiBold"),
+        url("../fonts/lato/Lato-SemiBold.woff") format("woff");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Lato";
+    src: local("Lato Bold"),
+        local("Lato-Bold"),
+        url("../fonts/lato/Lato-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Lato";
+    src: local("Lato Black"),
+        local("Lato-Black"),
+        url("../fonts/lato/Lato-Black.woff") format("woff");
+    font-style: normal;
+    font-weight: 900;
+}

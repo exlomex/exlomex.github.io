@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренеры</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script defer src="https://kit.fontawesome.com/540fe947a1.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="../js/main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__nav nav">
+                <div class="container">
+                    <div class="nav-inner">
+                        <a href="../index.html" class="nav__logo"><img src="../img/Logo.svg" alt="GymFit"></a>
+
+                        <div class="nav__right-box">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="../index.html" class="nav__link">Главная</a></li>
+                                <li class="nav__item"><a href="./aboutUs.html" class="nav__link">О нас</a></li>
+                                <li class="nav__item"><a href="./trainers.html" class="nav__link">Тренеры</a></li>
+                                <li class="nav__item"><a href="./bmiCalculator.html" class="nav__link">Калькулятор
+                                        ИМТ</a></li>
+                                <li class="nav__item"><a href="./contactUs.html" class="nav__link">Связаться с
+                                        нами</a></li>
+                            </ul>
+
+                            <a href='./contactUs.html' class="nav__button">Купить абонемент</a>
+                        </div>
+
+                        <!-- burger menu -->
+                        <input type="checkbox" id="m1" class="hidden-menu-ticker">
+                        <label class="btn-menu" for="m1">
+                            <span class="first"></span>
+                            <span class="second"></span>
+                            <span class="third"></span>
+                        </label>
+
+                        <div class="hidden-menu">
+                            <li class="nav__item"><a href="../index.html" class="nav__link">Главная</a></li>
+                            <li class="nav__item"><a href="./aboutUs.html" class="nav__link">О нас</a></li>
+                            <li class="nav__item"><a href="./trainers.html" class="nav__link">Тренеры</a></li>
+                            <li class="nav__item"><a href="./bmiCalculator.html" class="nav__link">Калькулятор
+                                    ИМТ</a></li>
+                            <li class="nav__item"><a href="./contactUs.html" class="nav__link">Связаться с
+                                    нами</a></li>
+
+                            <a href='./contactUs.html' class="nav__button">Купить абонемент</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </nav>
+
+            <div class="header__body header__trainersPage">
+                <div class="container">
+                    <div class="header__body-inner ">
+                        <h1 class="header__heading">
+                            Наши тренеры
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="main__trainers trainers">
+                <div class="container">
+                    <div class="trainers__heading heading">
+                        <p class="heading__subtitle">Наши тренеры</p>
+                        <h2 class="heading__title">Мы учились, чтобы научить вас</h2>
+                    </div>
+
+                    <div class="trainers-inner">
+                        <div class="trainers__card-tr card-tr">
+                            <img src="../img/trainers/Image.jpg" alt="" class="card-tr__img">
+                            <div class="card-tr__wrapper">
+                                <div class="card-tr__top">
+                                    <p class="card-tr__name">Миранда</p>
+                                    <div class="card-tr__review">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 15 15" fill="none">
+                                            <path
+                                                d="M6.54894 1.45684C6.8483 0.535524 8.1517 0.535525 8.45106 1.45684L9.52063 4.74863C9.6545 5.16066 10.0385 5.43962 10.4717 5.43962H13.9329C14.9016 5.43962 15.3044 6.67923 14.5207 7.24863L11.7205 9.28307C11.37 9.53772 11.2234 9.98909 11.3572 10.4011L12.4268 13.6929C12.7261 14.6142 11.6717 15.3803 10.888 14.8109L8.08778 12.7765C7.7373 12.5219 7.2627 12.5219 6.91221 12.7765L4.11204 14.8109C3.32833 15.3803 2.27385 14.6142 2.5732 13.6929L3.64277 10.4011C3.77665 9.98909 3.62999 9.53772 3.2795 9.28307L0.479333 7.24863C-0.304381 6.67923 0.0983949 5.43962 1.06712 5.43962H4.52832C4.96154 5.43962 5.3455 5.16066 5.47937 4.74863L6.54894 1.45684Z"
+                                                fill="#FFA722" />
+                                        </svg>
+                                        /5
+                                    </div>
+                                </div>
+                                <p class="card-tr__spec">Специализации :</p>
+                                <p class="card-tr__desc">Кроссфит, Питание, реабилитация</p>
+                                <div class="card-tr__link">
+                                    <img src="../img/icons/fb.svg" alt="">
+                                    <img src="../img/icons/inst.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="trainers__card-tr card-tr">
+                            <img src="../img/trainers/2.jpg" alt="" class="card-tr__img">
+                            <div class="card-tr__wrapper">
+                                <div class="card-tr__top">
+                                    <p class="card-tr__name">Мэдисон</p>
+                                    <div class="card-tr__review">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 15 15" fill="none">
+                                            <path
+                                                d="M6.54894 1.45684C6.8483 0.535524 8.1517 0.535525 8.45106 1.45684L9.52063 4.74863C9.6545 5.16066 10.0385 5.43962 10.4717 5.43962H13.9329C14.9016 5.43962 15.3044 6.67923 14.5207 7.24863L11.7205 9.28307C11.37 9.53772 11.2234 9.98909 11.3572 10.4011L12.4268 13.6929C12.7261 14.6142 11.6717 15.3803 10.888 14.8109L8.08778 12.7765C7.7373 12.5219 7.2627 12.5219 6.91221 12.7765L4.11204 14.8109C3.32833 15.3803 2.27385 14.6142 2.5732 13.6929L3.64277 10.4011C3.77665 9.98909 3.62999 9.53772 3.2795 9.28307L0.479333 7.24863C-0.304381 6.67923 0.0983949 5.43962 1.06712 5.43962H4.52832C4.96154 5.43962 5.3455 5.16066 5.47937 4.74863L6.54894 1.45684Z"
+                                                fill="#FFA722" />
+                                        </svg>
+                                        /5
+                                    </div>
+                                </div>
+                                <p class="card-tr__spec">Специализации :</p>
+                                <p class="card-tr__desc">Кроссфит, Питание, реабилитация</p>
+                                <div class="card-tr__link">
+                                    <img src="../img/icons/fb.svg" alt="">
+                                    <img src="../img/icons/inst.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="trainers__card-tr card-tr">
+                            <img src="../img/trainers/3.jpg" alt="" class="card-tr__img">
+                            <div class="card-tr__wrapper">
+                                <div class="card-tr__top">
+                                    <p class="card-tr__name">Джулиа Роулинг</p>
+                                    <div class="card-tr__review">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 15 15" fill="none">
+                                            <path
+                                                d="M6.54894 1.45684C6.8483 0.535524 8.1517 0.535525 8.45106 1.45684L9.52063 4.74863C9.6545 5.16066 10.0385 5.43962 10.4717 5.43962H13.9329C14.9016 5.43962 15.3044 6.67923 14.5207 7.24863L11.7205 9.28307C11.37 9.53772 11.2234 9.98909 11.3572 10.4011L12.4268 13.6929C12.7261 14.6142 11.6717 15.3803 10.888 14.8109L8.08778 12.7765C7.7373 12.5219 7.2627 12.5219 6.91221 12.7765L4.11204 14.8109C3.32833 15.3803 2.27385 14.6142 2.5732 13.6929L3.64277 10.4011C3.77665 9.98909 3.62999 9.53772 3.2795 9.28307L0.479333 7.24863C-0.304381 6.67923 0.0983949 5.43962 1.06712 5.43962H4.52832C4.96154 5.43962 5.3455 5.16066 5.47937 4.74863L6.54894 1.45684Z"
+                                                fill="#FFA722" />
+                                        </svg>
+                                        /5
+                                    </div>
+                                </div>
+                                <p class="card-tr__spec">Специализации :</p>
+                                <p class="card-tr__desc">Кроссфит, Питание, реабилитация</p>
+                                <div class="card-tr__link">
+                                    <img src="../img/icons/fb.svg" alt="">
+                                    <img src="../img/icons/inst.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="trainers__card-tr card-tr">
+                            <img src="../img/trainers/4.jpg" alt="" class="card-tr__img">
+                            <div class="card-tr__wrapper">
+                                <div class="card-tr__top">
+                                    <p class="card-tr__name">Джон Максвел</p>
+                                    <div class="card-tr__review">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 15 15" fill="none">
+                                            <path
+                                                d="M6.54894 1.45684C6.8483 0.535524 8.1517 0.535525 8.45106 1.45684L9.52063 4.74863C9.6545 5.16066 10.0385 5.43962 10.4717 5.43962H13.9329C14.9016 5.43962 15.3044 6.67923 14.5207 7.24863L11.7205 9.28307C11.37 9.53772 11.2234 9.98909 11.3572 10.4011L12.4268 13.6929C12.7261 14.6142 11.6717 15.3803 10.888 14.8109L8.08778 12.7765C7.7373 12.5219 7.2627 12.5219 6.91221 12.7765L4.11204 14.8109C3.32833 15.3803 2.27385 14.6142 2.5732 13.6929L3.64277 10.4011C3.77665 9.98909 3.62999 9.53772 3.2795 9.28307L0.479333 7.24863C-0.304381 6.67923 0.0983949 5.43962 1.06712 5.43962H4.52832C4.96154 5.43962 5.3455 5.16066 5.47937 4.74863L6.54894 1.45684Z"
+                                                fill="#FFA722" />
+                                        </svg>
+                                        /5
+                                    </div>
+                                </div>
+                                <p class="card-tr__spec">Специализации :</p>
+                                <p class="card-tr__desc">Кроссфит, Питание, реабилитация</p>
+                                <div class="card-tr__link">
+                                    <img src="../img/icons/fb.svg" alt="">
+                                    <img src="../img/icons/inst.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="trainers__card-tr card-tr">
+                            <img src="../img/trainers/5.jpg" alt="" class="card-tr__img">
+                            <div class="card-tr__wrapper">
+                                <div class="card-tr__top">
+                                    <p class="card-tr__name">Стив Смит</p>
+                                    <div class="card-tr__review">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 15 15" fill="none">
+                                            <path
+                                                d="M6.54894 1.45684C6.8483 0.535524 8.1517 0.535525 8.45106 1.45684L9.52063 4.74863C9.6545 5.16066 10.0385 5.43962 10.4717 5.43962H13.9329C14.9016 5.43962 15.3044 6.67923 14.5207 7.24863L11.7205 9.28307C11.37 9.53772 11.2234 9.98909 11.3572 10.4011L12.4268 13.6929C12.7261 14.6142 11.6717 15.3803 10.888 14.8109L8.08778 12.7765C7.7373 12.5219 7.2627 12.5219 6.91221 12.7765L4.11204 14.8109C3.32833 15.3803 2.27385 14.6142 2.5732 13.6929L3.64277 10.4011C3.77665 9.98909 3.62999 9.53772 3.2795 9.28307L0.479333 7.24863C-0.304381 6.67923 0.0983949 5.43962 1.06712 5.43962H4.52832C4.96154 5.43962 5.3455 5.16066 5.47937 4.74863L6.54894 1.45684Z"
+                                                fill="#FFA722" />
+                                        </svg>
+                                        /5
+                                    </div>
+                                </div>
+                                <p class="card-tr__spec">Специализации :</p>
+                                <p class="card-tr__desc">Кроссфит, Питание, реабилитация</p>
+                                <div class="card-tr__link">
+                                    <img src="../img/icons/fb.svg" alt="">
+                                    <img src="../img/icons/inst.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="trainers__card-tr card-tr">
+                            <img src="../img/trainers/6.jpg" alt="" class="card-tr__img">
+                            <div class="card-tr__wrapper">
+                                <div class="card-tr__top">
+                                    <p class="card-tr__name">Кейн Льюси</p>
+                                    <div class="card-tr__review">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 15 15" fill="none">
+                                            <path
+                                                d="M6.54894 1.45684C6.8483 0.535524 8.1517 0.535525 8.45106 1.45684L9.52063 4.74863C9.6545 5.16066 10.0385 5.43962 10.4717 5.43962H13.9329C14.9016 5.43962 15.3044 6.67923 14.5207 7.24863L11.7205 9.28307C11.37 9.53772 11.2234 9.98909 11.3572 10.4011L12.4268 13.6929C12.7261 14.6142 11.6717 15.3803 10.888 14.8109L8.08778 12.7765C7.7373 12.5219 7.2627 12.5219 6.91221 12.7765L4.11204 14.8109C3.32833 15.3803 2.27385 14.6142 2.5732 13.6929L3.64277 10.4011C3.77665 9.98909 3.62999 9.53772 3.2795 9.28307L0.479333 7.24863C-0.304381 6.67923 0.0983949 5.43962 1.06712 5.43962H4.52832C4.96154 5.43962 5.3455 5.16066 5.47937 4.74863L6.54894 1.45684Z"
+                                                fill="#FFA722" />
+                                        </svg>
+                                        /5
+                                    </div>
+                                </div>
+                                <p class="card-tr__spec">Специализации :</p>
+                                <p class="card-tr__desc">Кроссфит, Питание, реабилитация</p>
+                                <div class="card-tr__link">
+                                    <img src="../img/icons/fb.svg" alt="">
+                                    <img src="../img/icons/inst.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer__left-box">
+                        <a href="../index.html" class="footer__logo"><img src="../img/Logo_light.svg" alt="logo"></a>
+
+                        <p class="footer__desc">Тренажерный зал для тех, кто хочет от жизни большего</p>
+
+                        <div class="footer__card">
+                            <p class="footer__card-content">
+                                <span>Номер телефона :</span>
+
+                                +79256566633
+                                +79256785638
+                                <br><br>
+
+                                <span>Mail : </span>
+                                gymfit@gmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer__middle-box">
+                        <h3 class="footer__nav-title">Полезные страницы</h3>
+
+                        <nav class="footer__nav">
+                            <ul class="footer__nav-list">
+                                <li class="footer__nav-item"><a href="../index.html"
+                                        class="footer__nav-link">Главная</a></li>
+                                <li class="footer__nav-item"><a href="./aboutUs.html" class="footer__nav-link">О
+                                        нас</a></li>
+                                <li class="footer__nav-item"><a href="./trainers.html"
+                                        class="footer__nav-link">Тренера</a></li>
+                                <li class="footer__nav-item"><a href="./bmiCalculator.html"
+                                        class="footer__nav-link">калькулятор
+                                        иМТ</a></li>
+                                <li class="footer__nav-item"><a href="./passwordSecurity.html"
+                                        class="footer__nav-link">Защита пароля</a></li>
+                                <li class="footer__nav-item"><a href="./contactUs.html"
+                                        class="footer__nav-link">Связаться с нами</a>
+                                </li>
+                                <li class="footer__nav-item"><a href="./404Page.html" class="footer__nav-link">404
+                                        Ошибка</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="footer__right-box">
+                        <div class="footer__mailing">
+                            <h3 class="footer__mailing-title">Рассылка</h3>
+
+                            <form action="" class="footer__mailing-form">
+                                <input placeholder="Введите свою почту" type="text" class="footer__mailing-input">
+
+                                <button class="footer__mailing-button" type="submit">Подписаться</button>
+                            </form>
+                        </div>
+
+                        <div class="footer__bio">
+                            <img src="../img/icons/inst.svg" alt="">
+                            <img src="../img/icons/fb.svg" alt="">
+                        </div>
+
+                        <div class="footer__return">
+                            <span></span>
+                            <div class="footer__return-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="58" viewBox="0 0 57 58"
+                                    fill="none">
+                                    <circle cx="28.5" cy="28.7607" r="28" stroke="#485059" />
+                                    <path d="M23 30.2607L29 24.2607L35 30.2607" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+</body>
+
+</html>

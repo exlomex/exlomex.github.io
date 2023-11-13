@@ -1,0 +1,491 @@
+.main__bmi {
+}
+.bmi {
+    padding: 150px 0;
+
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 0 50px;
+
+        .bmi__content {
+            .bmi__content-title {
+                color: var(--black);
+                font-size: 2.75em;
+                font-weight: 700;
+                line-height: 110%;
+
+                margin-bottom: 22px;
+            }
+            .bmi__content-subtitle {
+                max-width: 600px;
+                color: #6a6a6a;
+                font-family: "Lato";
+                font-size: 1.375em;
+                font-weight: 500;
+                line-height: 145%;
+
+                margin-bottom: 20px;
+            }
+            .bmi__form {
+                max-width: 650px;
+
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px 25px;
+                .bmi__input {
+                    padding: 0 20px;
+                    width: 310px;
+                    height: 65px;
+                    border: 1px solid #e6e6e6;
+
+                    color: #6a6a6a;
+                    font-family: "Lato";
+                    font-size: 1.375em;
+                    font-weight: 400;
+                }
+                .bmi__result {
+                    padding: 0 20px;
+                    width: 650px;
+                    height: 65px;
+                    border: 1px solid var(--black);
+
+                    color: #6a6a6a;
+                    font-family: "Lato";
+                    font-size: 1.375em;
+                    font-weight: 400;
+                }
+                .bmi__button {
+                    display: inline-block;
+                    padding: 16px 50px 18px 50px;
+                    background: var(--black);
+
+                    color: var(--white);
+                    font-family: "Lato";
+                    font-size: 1.25em;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .bmi__table {
+            &-title {
+                color: var(--black);
+                font-size: 2.75em;
+                font-weight: 700;
+                line-height: 110%;
+
+                margin-bottom: 22px;
+            }
+
+            table {
+                border-collapse: collapse;
+
+                th {
+                    font-weight: 600;
+                    color: var(--white);
+                    text-align: center;
+                    font-weight: 600;
+                    line-height: 145%;
+                }
+
+                td {
+                    font-weight: 500;
+                    line-height: 145%;
+                }
+
+                th,
+                td {
+                    font-size: 1.25em;
+                    font-family: "Lato";
+
+                    border: 1px solid #50555b;
+                    background-color: #1c2128;
+                    color: var(--white);
+                    text-align: center;
+
+                    width: 351px;
+                    padding: 36px 20px;
+                }
+
+                .td--yellow {
+                    color: #f8c800;
+                }
+                .td--green {
+                    color: #a1f65e;
+                }
+                .td--orange {
+                    color: #ffa24b;
+                }
+                .td--red {
+                    color: #ff4b4b;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+    .bmi {
+        &-inner {
+            .bmi__content {
+                .bmi__content-title {
+                    font-size: 2.5em;
+                }
+                .bmi__content-subtitle {
+                    font-size: 1.25em;
+                    max-width: 550px;
+                }
+                .bmi__form {
+                    .bmi__input {
+                        width: 225px;
+                        height: 55px;
+                        font-size: 1.25em;
+                    }
+                    .bmi__result {
+                        height: 55px;
+                        width: 475px;
+                        font-size: 1.25em;
+                    }
+                    .bmi__button {
+                    }
+                }
+            }
+
+            .bmi__table {
+                &-title {
+                }
+
+                table {
+                    th {
+                    }
+
+                    td {
+                    }
+
+                    th,
+                    td {
+                        padding: 30px 10px;
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+    .bmi {
+        &-inner {
+            .bmi__content {
+                .bmi__content-title {
+                    font-size: 2.25em;
+                    margin-bottom: 12px;
+                }
+                .bmi__content-subtitle {
+                    font-size: 1em;
+                    max-width: 500px;
+                }
+                .bmi__form {
+                    gap: 15px 15px;
+
+                    .bmi__input {
+                        width: 225px;
+                        height: 55px;
+                        font-size: 1.25em;
+                    }
+                    .bmi__result {
+                        height: 55px;
+                        width: 475px;
+                        font-size: 1.25em;
+                    }
+                    .bmi__button {
+                    }
+                }
+            }
+
+            .bmi__table {
+                &-title {
+                    font-size: 2.25em;
+                }
+
+                table {
+                    th {
+                    }
+
+                    td {
+                    }
+
+                    th,
+                    td {
+                        padding: 25px 10px;
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .bmi {
+        &-inner {
+            flex-direction: column;
+            padding-left: 45px;
+            gap: 70px 70px;
+            .bmi__content {
+                .bmi__content-title {
+                    font-size: 2.375em;
+                }
+                .bmi__content-subtitle {
+                    font-size: 1.25em;
+                }
+                .bmi__form {
+                    .bmi__input {
+                    }
+                    .bmi__result {
+                    }
+                    .bmi__button {
+                    }
+                }
+            }
+
+            .bmi__table {
+                &-title {
+                    font-size: 2.375em;
+                }
+
+                table {
+                    th {
+                    }
+
+                    td {
+                    }
+
+                    th,
+                    td {
+                        width: 325px;
+                        padding: 30px 10px;
+                        font-size: 1.125em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 680px){
+    .bmi {
+        &-inner {
+            padding-left: 20px;
+
+            .bmi__content {
+                .bmi__content-title {
+                    font-size: 2.125em;
+                }
+                .bmi__content-subtitle {
+                    // font-size: 1.25em;
+                }
+                .bmi__form {
+                    .bmi__input {
+                        width: 280px;
+                        height: 58px;
+                        font-size: 1.25em;
+                    }
+                    .bmi__result {
+                        width: 585px;
+                        height: 58px;
+                        font-size: 1.25em;
+
+                    }
+                    .bmi__button {
+                    }
+                }
+            }
+
+            .bmi__table {
+                &-title {
+                    font-size: 2.125em;
+                }
+
+                table {
+                    th {
+                    }
+
+                    td {
+                    }
+
+                    th,
+                    td {
+                        width: 292px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .bmi {
+        &-inner {
+            padding-left: 20px;
+
+            .bmi__content {
+                .bmi__content-title {
+                    font-size: 2.125em;
+                    margin-bottom: 10px;
+                }
+                .bmi__content-subtitle {
+                    font-size: 1em;
+                    max-width: 500px;
+                }
+                .bmi__form {
+                    .bmi__input {
+                        width: 95%;
+                        height: 58px;
+                        font-size: 1.25em;
+                    }
+                    .bmi__result {
+                        width: 95%;
+                        height: 58px;
+                        font-size: 1.25em;
+
+                    }
+                    .bmi__button {
+                    }
+                }
+            }
+
+            .bmi__table {
+                &-title {
+                    font-size: 2.125em;
+                }
+
+                table {
+                    th {
+                    }
+
+                    td {
+                    }
+
+                    th,
+                    td {
+                        height: 58px;
+                        width: 292px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .bmi {
+        padding: 80px 0;
+        &-inner {
+            padding-left: 20px;
+
+            .bmi__content {
+                .bmi__content-title {
+
+                }
+                .bmi__content-subtitle {
+                    font-size: 0.875em;
+                    max-width: 90%;
+
+                }
+                .bmi__form {
+                    gap: 20px 20px;
+                    .bmi__input {
+                        font-size: 1.125em;
+                        height: 50px;
+
+                    }
+                    .bmi__result {
+                        font-size: 1.125em;
+                        height: 50px;
+
+                    }
+                    .bmi__button {
+                        font-size: 1em;
+                        padding: 12px 40px 13px 40px;
+                    }
+                }
+            }
+
+            .bmi__table {
+                &-title {
+
+                }
+
+                table {
+                    th {
+                    }
+
+                    td {
+                    }
+
+                    th,
+                    td {
+                        width: 260px;
+                        padding: 25px 10px;
+                        font-size: 1em;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .bmi {
+        &-inner {
+            padding-left: 0;
+
+            .bmi__content {
+                .bmi__content-title {
+                    font-size: 1.875em;
+
+                }
+                .bmi__content-subtitle {
+
+                }
+                .bmi__form {
+                    .bmi__input {
+
+                    }
+                    .bmi__result {
+
+                    }
+                    .bmi__button {
+                    }
+                }
+            }
+
+            .bmi__table {
+                &-title {
+                    font-size: 1.875em;
+
+                }
+
+                table {
+                    th {
+                    }
+
+                    td {
+                    }
+
+                    th,
+                    td {
+
+                        font-size: 0.875em;
+                        padding: 18px 10px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+

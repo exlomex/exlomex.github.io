@@ -1,0 +1,126 @@
+.main__error {
+}
+.error {
+    padding: 200px 0;
+
+    &-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .error__img {
+            margin-bottom: 45px;
+            max-width: 955px;
+            width: 100%;
+        }
+        .error__heading {
+        }
+        .error__title {
+            color: var(--black);
+            font-size: 2.5em;
+            font-weight: 700;
+            line-height: 110%;
+            text-align: center;
+        }
+        .error__subtitle {
+            color: #6a6a6a;
+            text-align: center;
+            font-size: 1.25em;
+            font-weight: 500;
+            line-height: 110%;
+
+            margin-bottom: 21px;
+            margin-top: 21px;
+        }
+        .error__button {
+            display: inline-block;
+            color: #2f2f2f;
+            text-align: center;
+            font-family: "Lato";
+            font-size: 1.375em;
+            font-weight: 600;
+            padding: 19px 57px 20px 57px;
+            background: #a1f65e;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .error {
+        &-inner {
+            .error__img {
+                width: 80%;
+                margin-bottom: 30px;
+            }
+
+            .error__title {
+                font-size: 2rem;
+            }
+
+            .error__subtitle {
+                font-size: 1rem;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+
+            .error__button {
+                font-size: 1.25em;
+                padding: 15px 38px 16px 38px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .error {
+        padding: 140px 0;
+        &-inner {
+            .error__img {
+                margin-bottom: 20px;
+            }
+
+            .error__title {
+                font-size: 1.625rem;
+            }
+
+            .error__subtitle {
+                font-size: 0.875rem;
+            }
+
+            .error__button {
+                font-size: 1rem;
+                padding: 15px 38px 16px 38px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .error {
+        padding: 100px 0;
+
+        &-inner {
+            .error__title {
+                font-size: 1.25rem;
+            }
+
+            .error__subtitle {
+                font-size: 0.75rem;
+            }
+
+            .error__button {
+                font-size: 0.85rem;
+                padding: 12px 24px 10px 24px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 330px) {
+    .error {
+        &-inner {
+            .error__title {
+                font-size: 1.125rem;
+            }
+        }
+    }
+}

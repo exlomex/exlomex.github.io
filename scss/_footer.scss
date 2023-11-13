@@ -1,0 +1,272 @@
+.footer {
+    padding: 105px 0;
+    background-color: var(--black);
+
+    .footer-inner {
+        display: flex;
+        gap: 50px 50px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__left-box {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+
+        width: 420px;
+    }
+    &__logo {
+        margin-bottom: 17px;
+    }
+    &__desc {
+        color: #bcbcbc;
+        font-family: "Lato";
+        font-size: 1.25em;
+        font-weight: 500;
+        line-height: 145%;
+        margin-bottom: 48px;
+    }
+    &__card {
+        padding: 36px 217px 36px 37px;
+        border: 1px solid #485059;
+        background: #242a32;
+
+        .footer__card-content {
+            width: 153px;
+    
+            color: #bcbcbc;
+            font-family: "Lato";
+            font-size: 1.125em;
+            font-weight: 500;
+            line-height: 145%;
+    
+            span {
+                color: var(--green);
+            }
+        }
+    }
+    
+
+    &__middle-box {
+    }
+
+    &__nav-title,
+    &__mailing-title {
+        margin-bottom: 32px;
+
+        color: var(--white);
+        font-size: 1.563em;
+        font-weight: 700;
+        line-height: 110%;
+    }
+    &__nav {
+    }
+    &__nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 4px 0;
+    }
+    &__nav-item {
+        color: #bcbcbc;
+        font-family: "Lato";
+        font-size: 1.25em;
+        font-weight: 500;
+        line-height: 242.5%;
+        text-transform: capitalize;
+    }
+    &__nav-link {
+    }
+    &__right-box {
+    }
+    &__mailing {
+    }
+    &__mailing-title {
+    }
+    &__mailing-form {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    &__mailing-input {
+        width: 423px;
+        height: 65px;
+        border: 1px solid #485059;
+        background: #242a32;
+
+        color: #bcbcbc;
+        font-family: "Lato";
+        font-size: 1.375em;
+        font-weight: 400;
+        text-transform: lowercase;
+
+        padding: 0 30px;
+        margin-bottom: 18px;
+    }
+    &__mailing-button {
+        padding: 19px 50px;
+        background: var(--green);
+
+        color: #2f2f2f;
+        font-family: "Lato";
+        font-size: 1.25em;
+        font-weight: 600;
+
+        margin-bottom: 40px;
+    }
+
+    &__bio {
+        display: flex;
+        gap: 0 18px;
+
+        margin-bottom: 35px;
+    }
+    &__return {
+        display: flex;
+        align-items: center;
+        gap: 0 29px;
+
+        span {
+            display: inline-block;
+            width: 336px;
+            height: 1px;
+            background: #485059;
+        }
+
+        svg path {
+            transition: all 0.3s ease-in;
+        }
+
+        svg:hover {
+            fill: var(--green);
+
+            path {
+                stroke: var(--black);
+            }
+
+            circle {
+                stroke: var(--black);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1260px) and (min-width: 900px){
+    .footer .footer-inner {
+        gap: 100px 150px;
+    }
+
+    .footer__middle-box {
+        // margin-right: auto;
+    }
+
+    .footer__mailing-input {
+        width: 600px;
+    }
+
+    .footer__return span {
+        width: 514px;
+    }
+
+}
+
+@media only screen and (max-width: 1133px) and (min-width: 840px){
+    .footer .footer-inner {
+        justify-content: start;
+    }
+
+    .footer .footer__middle-box {
+    padding-left: 70px;   
+    }
+}
+
+@media only screen and (max-width: 840px) and (min-width: 767px){
+    .footer .footer-inner {
+        justify-content: start;
+    }
+
+    .footer .footer__middle-box {
+    padding-left: 30px;   
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    
+}
+
+@media only screen and (max-width: 900px) and (min-width: 550px){
+    .footer .footer-inner {
+        gap: 100px 150px;
+    }
+
+}
+
+
+@media only screen and (max-width: 550px){
+    .footer__card {
+        width: 100%;
+        padding-right: 0;
+        }
+
+        .footer__card .footer__card-content {
+                font-size: 1rem;
+            }
+    }
+
+    .footer__mailing-input {
+        width: 330px;
+
+        font-size: 1rem;
+        height: 50px;
+    }
+
+    .footer__mailing-button {
+        padding: 15px 40px;
+    }
+
+    .footer__return span {
+        width: 250px;
+    }
+
+    .footer__nav-title {
+        font-size: 1.25em;
+        margin-bottom: 16px;
+    }
+
+    .footer__mailing-title {
+        font-size: 1.25em;
+    }
+
+    .footer__nav-item {
+        font-size: 1em;
+    }
+
+    .footer .footer-inner {
+        gap: 34px 60px;
+    }
+
+
+@media only screen and (max-width: 420px){
+    .footer__desc {
+        font-size: 1rem;
+    }
+
+    .footer__mailing-input {
+        width: 260px;
+
+        font-size: 1rem;
+        height: 50px;
+    }
+
+    .footer__mailing-button {
+        padding: 13px 36px;
+        font-size: 1rem;
+    }
+
+
+    .footer__return span {
+        width: 180px;
+    }
+
+
+}
+
