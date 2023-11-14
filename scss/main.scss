@@ -1249,3 +1249,47 @@ body {
         width: 200px;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .trainings-inner {
+        width: 270px;
+    }
+
+    .swiper-slide img {
+        width: 130px;
+    }
+
+    .slider-card {
+        width: 130px;
+    }
+
+    .trainings__slider .slider-card__title {
+        font-size: 1em;
+    }
+
+    .trainings__slider .slider-card__subtitle {
+        font-size: 0.65em;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    .trainings-inner {
+        width: 200px;
+    }
+
+    .swiper-slide img {
+        width: 200px;
+    }
+
+    .slider-card {
+        width: 200px;
+    }
+
+    .trainings__slider .slider-card__title {
+        font-size: 1.125em;
+    }
+
+    .trainings__slider .slider-card__subtitle {
+        font-size: 0.7em;
+    }
+}
