@@ -9,7 +9,9 @@ const mySwiper = new Swiper(".swiper", {
     // centeredSlides: true,
     roundLengths: true,
     loop: true,
-
+    autoplay: {
+        delay: 2000,
+    },
     breakpoints: {
         1450: {
             slidesPerView: 3,
@@ -22,9 +24,24 @@ const mySwiper = new Swiper(".swiper", {
 
         730: {
             slidesPerView: 2,
-            spaceBetween: 0
+            spaceBetween: 40
         },
 
+        425: {
+            slidesPerView: 2,
+            spaceBetween: 40
+        },
+
+        366: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+
+        365: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        },
+        
         300: {
             slidesPerView: 1,
             spaceBetween: 0

@@ -1073,18 +1073,18 @@ body {
     }
 
     .trainings-inner {
-        width: 510px;
+        width: 600px;
     }
 
     .swiper-slide img {
-        width: 320px;
+        width: 280px;
     }
 
     .trainings__slider .slider-card__title {
     }
 
     .slider-card {
-        width: 320px;
+        width: 280px;
     }
 
     .trainings__slider {
@@ -1098,6 +1098,41 @@ body {
     .marquee .marquee__content {
         font-size: 2.5em;
     }
+
+    // arrows hidden
+    .trainings__left_arrow {
+        margin-right: 20px;
+        width: 35px;
+        display: none;
+    }
+
+    .trainings__right_arrow {
+        margin-left: 20px;
+        width: 35px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .trainings-inner {
+        width: 470px;
+    }
+
+    .swiper-slide img {
+        width: 240px;
+    }
+
+    .trainings__slider .slider-card__title {
+    }
+
+    .slider-card {
+        width: 240px;
+    }
+
+    .trainings__slider {
+    }
+
+
 }
 
 @media only screen and (max-width: 580px) {
@@ -1118,7 +1153,9 @@ body {
     .trainings__slider .slider-card__subtitle {
         font-size: 0.75em;
     }
+}
 
+@media only screen and (max-width: 540px) {
     .aboutUs__card {
         img {
             display: none;
@@ -1126,46 +1163,23 @@ body {
     }
 
     .trainings-inner {
-        width: 400px;
-    }
-
-    .swiper-slide img {
-        width: 200px;
-    }
-
-    .trainings__slider .slider-card__title {
-    }
-
-    .slider-card {
-        width: 200px;
-    }
-
-    .trainings__left_arrow {
-        margin-right: 20px;
-        width: 35px;
-    }
-
-    .trainings__right_arrow {
-        margin-left: 20px;
-        width: 35px;
-    }
-}
-
-@media only screen and (max-width: 470px) {
-    .trainings-inner {
         width: 350px;
     }
 
     .swiper-slide img {
-        width: 200px;
+        width: 170px;
     }
 
     .trainings__slider .slider-card__title {
     }
 
     .slider-card {
-        width: 200px;
+        width: 170px;
     }
+
+    
+
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -1180,8 +1194,9 @@ body {
         }
     }
 
+
     .trainings-inner {
-        width: 260px;
+        width: 330px;
     }
 
     .swiper-slide img {
@@ -1189,19 +1204,48 @@ body {
     }
 
     .trainings__slider .slider-card__title {
+        font-size: 1.25em;
+    }
+
+    .trainings__slider .slider-card__subtitle {
+        font-size: 0.7em;
     }
 
     .slider-card {
         width: 160px;
     }
+}
 
-    .trainings__left_arrow {
-        margin-right: 10px;
-        width: 30px;
+@media only screen and (max-width: 400px) {
+    .trainings-inner {
+        width: 300px;
     }
 
-    .trainings__right_arrow {
-        margin-left: 10px;
-        width: 30px;
+    .swiper-slide img {
+        width: 140px;
+    }
+
+    .trainings__slider .slider-card__title {
+    }
+
+    .slider-card {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .trainings-inner {
+        width: 220px;
+    }
+
+    .swiper-slide img {
+        width: 200px;
+    }
+
+    .trainings__slider .slider-card__title {
+    }
+
+    .slider-card {
+        width: 200px;
     }
 }
