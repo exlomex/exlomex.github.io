@@ -87,6 +87,15 @@
         padding: 0 30px;
 
         margin-bottom: 30px;
+        
+    }
+
+    &__form-input,&__form-textarea {
+        transition: border 0.3s ease;
+    }
+
+    &__form-input:focus, &__form-textarea:focus {
+        border: 1px solid #33333367;
     }
 
     &__form-textarea {
@@ -113,13 +122,18 @@
         font-family: "Lato";
         font-size: 1.25em;
         font-weight: 600;
+
+        transition: background-color .3s ease;
+
+
+        &:hover {
+            background-color: #1b2129df;
+        }
     }
+
 }
 
 // contacts
-
-.main__contacts {
-}
 .contacts {
     height: 920px;
     background: url("../img/ContactUs/1.jpg") no-repeat center 0 / cover;
@@ -351,16 +365,10 @@
 }
 
 @media only screen and (max-width: 930px) {
-    .contacts {
-    }
-
     .contacts-inner {
         padding: 40px 60px;
         gap: 0 50px;
         height: 300px;
-
-        .contacts__card-title {
-        }
 
         .contacts__card-info {
             width: 150px;
@@ -590,20 +598,6 @@
     .contacts-inner {
         height: 600px;
         flex-direction: column;
-        .contacts__card {
-        }
-
-        .contacts__card-icon {
-        }
-
-        .contacts__card-title {
-        }
-
-        .contacts__card-title::after {
-        }
-
-        .contacts__card-info {
-        }
     }
 }
 
@@ -649,9 +643,6 @@
         .contactUs__hours-title {
             font-size: 1.25em;
         }
-
-        .contactUs__hours-main {
-        }
     }
 
     .contactUs__form {
@@ -662,19 +653,6 @@
 
         .contactUs__form-subtitle {
             display: none;
-        }
-
-        .contactUs__form-input {
-        }
-
-        .contactUs__form-input,
-        .contactUs__form-textarea {
-        }
-
-        .contactUs__form-textarea {
-        }
-
-        .contactUs__form-button {
         }
     }
 }
@@ -700,18 +678,9 @@
         .contactUs__hours-title {
             font-size: 1.25em;
         }
-
-        .contactUs__hours-main {
-        }
     }
 
     .contactUs__form {
-        .contactUs__form-title {
-        }
-
-        .contactUs__form-subtitle {
-        }
-
         .contactUs__form-input {
             height: 47px;
             padding: 0 14px;
@@ -722,12 +691,6 @@
         .contactUs__form-textarea {
             padding: 14px;
 
-        }
-
-        .contactUs__form-textarea {
-        }
-
-        .contactUs__form-button {
         }
     }
 

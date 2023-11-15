@@ -1,5 +1,3 @@
-.main__bmi {
-}
 .bmi {
     padding: 150px 0;
 
@@ -43,7 +41,16 @@
                     font-family: "Lato";
                     font-size: 1.375em;
                     font-weight: 400;
+
+                    transition: border 0.3s ease;
+
+                    &:focus {
+                        border: 1px solid #33333367;
+                    }
                 }
+
+                
+
                 .bmi__result {
                     padding: 0 20px;
                     width: 650px;
@@ -64,7 +71,15 @@
                     font-family: "Lato";
                     font-size: 1.25em;
                     font-weight: 600;
+
+                    transition: background-color .3s ease;
+
+                    &:hover {
+                        background-color: #1b2129df;
+                    }
                 }
+
+                
             }
         }
 
@@ -147,22 +162,11 @@
                         width: 475px;
                         font-size: 1.25em;
                     }
-                    .bmi__button {
-                    }
                 }
             }
 
             .bmi__table {
-                &-title {
-                }
-
                 table {
-                    th {
-                    }
-
-                    td {
-                    }
-
                     th,
                     td {
                         padding: 30px 10px;
@@ -199,8 +203,7 @@
                         width: 475px;
                         font-size: 1.25em;
                     }
-                    .bmi__button {
-                    }
+
                 }
             }
 
@@ -210,12 +213,6 @@
                 }
 
                 table {
-                    th {
-                    }
-
-                    td {
-                    }
-
                     th,
                     td {
                         padding: 25px 10px;
@@ -240,14 +237,6 @@
                 .bmi__content-subtitle {
                     font-size: 1.25em;
                 }
-                .bmi__form {
-                    .bmi__input {
-                    }
-                    .bmi__result {
-                    }
-                    .bmi__button {
-                    }
-                }
             }
 
             .bmi__table {
@@ -256,12 +245,6 @@
                 }
 
                 table {
-                    th {
-                    }
-
-                    td {
-                    }
-
                     th,
                     td {
                         width: 325px;
@@ -274,7 +257,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 680px){
+@media only screen and (max-width: 800px) and (min-width: 680px) {
     .bmi {
         &-inner {
             padding-left: 20px;
@@ -282,9 +265,6 @@
             .bmi__content {
                 .bmi__content-title {
                     font-size: 2.125em;
-                }
-                .bmi__content-subtitle {
-                    // font-size: 1.25em;
                 }
                 .bmi__form {
                     .bmi__input {
@@ -296,9 +276,6 @@
                         width: 585px;
                         height: 58px;
                         font-size: 1.25em;
-
-                    }
-                    .bmi__button {
                     }
                 }
             }
@@ -309,12 +286,6 @@
                 }
 
                 table {
-                    th {
-                    }
-
-                    td {
-                    }
-
                     th,
                     td {
                         width: 292px;
@@ -349,9 +320,6 @@
                         width: 95%;
                         height: 58px;
                         font-size: 1.25em;
-
-                    }
-                    .bmi__button {
                     }
                 }
             }
@@ -362,12 +330,6 @@
                 }
 
                 table {
-                    th {
-                    }
-
-                    td {
-                    }
-
                     th,
                     td {
                         height: 58px;
@@ -386,25 +348,19 @@
             padding-left: 20px;
 
             .bmi__content {
-                .bmi__content-title {
-
-                }
                 .bmi__content-subtitle {
                     font-size: 0.875em;
                     max-width: 90%;
-
                 }
                 .bmi__form {
                     gap: 20px 20px;
                     .bmi__input {
                         font-size: 1.125em;
                         height: 50px;
-
                     }
                     .bmi__result {
                         font-size: 1.125em;
                         height: 50px;
-
                     }
                     .bmi__button {
                         font-size: 1em;
@@ -414,23 +370,12 @@
             }
 
             .bmi__table {
-                &-title {
-
-                }
-
                 table {
-                    th {
-                    }
-
-                    td {
-                    }
-
                     th,
                     td {
                         width: 260px;
                         padding: 25px 10px;
                         font-size: 1em;
-
                     }
                 }
             }
@@ -446,46 +391,22 @@
             .bmi__content {
                 .bmi__content-title {
                     font-size: 1.875em;
-
-                }
-                .bmi__content-subtitle {
-
-                }
-                .bmi__form {
-                    .bmi__input {
-
-                    }
-                    .bmi__result {
-
-                    }
-                    .bmi__button {
-                    }
                 }
             }
 
             .bmi__table {
                 &-title {
                     font-size: 1.875em;
-
                 }
 
                 table {
-                    th {
-                    }
-
-                    td {
-                    }
-
                     th,
                     td {
-
                         font-size: 0.875em;
                         padding: 18px 10px;
-
                     }
                 }
             }
         }
     }
 }
-

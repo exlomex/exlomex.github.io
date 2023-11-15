@@ -36,9 +36,6 @@
 
                 margin-bottom: 30px;
             }
-
-            &__img {
-            }
         }
     }
 
@@ -93,19 +90,7 @@
     }
 }
 
-.welcome__history-card {
-}
-
-.welcome__mission-card {
-}
-
-.welcome__text-card {
-}
-
 // advantages
-
-.main__advantages {
-}
 .advantages {
     &__img {
         width: 100%;
@@ -169,7 +154,16 @@
                     font-weight: 500;
                     line-height: 145%;
                 }
+
+                transition: box-shadow .2s ease, border .3s ease;
+
+                &:hover {
+                    box-shadow: 6px 7px 14px -4px rgba(72, 80, 89, 0.05);
+                    border: 1px solid #2c323a;
+                }
             }
+
+            
         }
     }
 
@@ -218,9 +212,6 @@
             }
         }
     }
-}
-
-.advantages__stat-card {
 }
 
 @media only screen and (max-width: 1400px) and (min-width: 1050px) {
@@ -400,9 +391,6 @@
         h2,
         p {
             text-align: center;
-        }
-
-        p {
         }
     }
 }
