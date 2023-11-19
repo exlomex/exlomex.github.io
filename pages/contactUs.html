@@ -12,6 +12,9 @@
     <script defer src="https://kit.fontawesome.com/540fe947a1.js" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="../js/main.js"></script>
+    <script defer src="../js/modal.js"></script>
+    <script defer src="../js/form.js"></script>
+
 </head>
 
 <body>
@@ -100,14 +103,23 @@
                             <h3 class="contactUs__form-title">Отправьте нам сообщение</h3>
                             <p class="contactUs__form-subtitle">Ваш адрес электронной почты не будет опубликован*</p>
 
-                            <input type="text" class="contactUs__form-input" placeholder="Полное имя">
-                            <input type="text" class="contactUs__form-input" placeholder="Почта">
-                            <input type="text" class="contactUs__form-input" placeholder="Вопрос">
+                            <input type="text" class="contactUs__form-input contactUs__form--search" placeholder="Полное имя">
+                            <input type="email" class="contactUs__form-input contactUs__form--search" placeholder="Почта">
+                            <input type="text" class="contactUs__form-input contactUs__form--search" placeholder="Вопрос">
 
-                            <textarea name="contactUs__form-textarea" class="contactUs__form-textarea"
+                            <textarea name="contactUs__form-textarea" class="contactUs__form-textarea contactUs__form--search"
                                 placeholder="Сообщение" cols="30" rows="10" style="resize: none"></textarea>
 
-                            <a href="#" type="submit" class="contactUs__form-button">Отправить</a>
+                            <a href="#open-modal" class="contactUs__form-button">Отправить</a>
+
+                            <div id="open-modal" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Закрыть</a>
+                                    
+                                    <div class="modal__text" style="text-align: center; line-height: 160%;">Сообщение было отправлено. <br>
+                                        Мы с вами свяжемся</div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -269,11 +281,19 @@
                         <div class="footer__mailing">
                             <h3 class="footer__mailing-title">Рассылка</h3>
 
-                            <form action="" class="footer__mailing-form">
+                            <form class="footer__mailing-form">
                                 <input placeholder="Введите свою почту" type="text" class="footer__mailing-input">
 
-                                <button class="footer__mailing-button" type="submit">Подписаться</button>
+                                <a href="#open-modal" class="footer__mailing-button" type="submit">Подписаться</a>
                             </form>
+
+                            <div id="open-modal" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Закрыть</a>
+                                    
+                                    <div class="modal__text">Мы с вами свяжемся</div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="footer__bio">

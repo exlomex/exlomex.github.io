@@ -5,6 +5,8 @@
 @import "../scss/404Page";
 @import "../scss/bmiPage";
 @import "../scss/trainersPage";
+@import "../scss/modal";
+
 
 .wrapper {
     min-height: 100%;
@@ -25,6 +27,10 @@ body {
     --grey: #858585;
     --green: #a1f65e;
     --light-grey: #f0f0f0;
+}
+
+.red {
+    color: crimson;
 }
 
 .container {
