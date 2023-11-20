@@ -649,6 +649,14 @@
   line-height: 110%;
   margin-bottom: 16px;
 }
+.contactUs__form-info {
+  color: red;
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: 110%;
+  margin: 13px 0;
+  display: none;
+}
 .contactUs__form-subtitle {
   color: var(--blue);
   font-size: 1.25em;
@@ -666,7 +674,7 @@
   font-size: 1.25em;
   font-weight: 400;
   padding: 0 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .contactUs__form-input, .contactUs__form-textarea {
   transition: border 0.3s ease;
