@@ -3,14 +3,24 @@
 const formInput = document.querySelector('.footer__mailing-input')
 const modalText = document.querySelector('.modal__text')
 const formButton = document.querySelector('.footer__mailing-button')
+const modalWindow = document.querySelector('#open-modal')
+
+const modalClose = document.querySelector('.modal-close').addEventListener(
+    'click', (e) => {
+        e.preventDefault()
+        modalWindow.classList.toggle('modal-window--visible')
+    }
+)
 
 if (formButton) {
-    formButton.addEventListener('click', () => {
+    formButton.addEventListener('click', (e) => {
+        e.preventDefault()
         if (formInput.value.length <= 0) {
-            formButton.removeAttribute("href");
             formInput.placeholder = 'Заполните все поля'
         } else {
-            formButton.setAttribute('href', '#open-modal');
+            formInput.placeholder = 'Введите свою почту'
+            formInput.value = ''
+            modalWindow.classList.toggle('modal-window--visible')
         }
     })
 }

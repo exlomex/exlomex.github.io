@@ -2054,7 +2054,7 @@
   pointer-events: none;
   transition: all 0.3s;
 }
-.modal-window:target {
+.modal-window.modal-window--visible {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
@@ -2084,7 +2084,7 @@
   margin: 0 0 15px;
 }
 
-.modal-close {
+.modal-close, .modal-close-contactUs {
   color: #aaa;
   line-height: 50px;
   font-size: 80%;
@@ -2096,12 +2096,13 @@
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.modal-close:hover {
+.modal-close:hover, .modal-close-contactUs:hover {
   color: var(--black);
 }
 
 .modal__text {
   color: var(--black);
+  line-height: 130%;
 }
 
 .wrapper {

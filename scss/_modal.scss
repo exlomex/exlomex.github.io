@@ -11,7 +11,7 @@
     pointer-events: none;
     transition: all 0.3s;
 
-    &:target {
+    &.modal-window--visible {
         visibility: visible;
         opacity: 1;
         pointer-events: auto;
@@ -47,7 +47,7 @@
     }
 }
 
-.modal-close {
+.modal-close, .modal-close-contactUs {
     color: #aaa;
     line-height: 50px;
     font-size: 80%;
@@ -66,4 +66,5 @@
 
 .modal__text {
     color: var(--black);
+    line-height: 130%;
 }
