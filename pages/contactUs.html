@@ -102,27 +102,32 @@
                         <form class="contactUs__form">
                             <h3 class="contactUs__form-title">Отправьте нам сообщение</h3>
                             <p class="contactUs__form-subtitle">Ваш адрес электронной почты не будет опубликован*</p>
-                            
-                            <label class="contactUs__form-info">Заполните поле*</label>
-                            <input type="text" class="contactUs__form-input contactUs__form--search" placeholder="Полное имя">
 
                             <label class="contactUs__form-info">Заполните поле*</label>
-                            <input type="email" class="contactUs__form-input contactUs__form--search" placeholder="Почта">
+                            <input type="text" class="contactUs__form-input contactUs__form--search"
+                                placeholder="Полное имя">
 
                             <label class="contactUs__form-info">Заполните поле*</label>
-                            <input type="text" class="contactUs__form-input contactUs__form--search" placeholder="Вопрос">
+                            <input type="email" class="contactUs__form-input contactUs__form--search"
+                                placeholder="Почта">
 
                             <label class="contactUs__form-info">Заполните поле*</label>
-                            <textarea name="contactUs__form-textarea" class="contactUs__form-textarea contactUs__form--search"
-                                placeholder="Сообщение" cols="30" rows="10" style="resize: none"></textarea>
+                            <input type="text" class="contactUs__form-input contactUs__form--search"
+                                placeholder="Вопрос">
+
+                            <label class="contactUs__form-info">Заполните поле*</label>
+                            <textarea name="contactUs__form-textarea"
+                                class="contactUs__form-textarea contactUs__form--search" placeholder="Сообщение"
+                                cols="30" rows="10" style="resize: none"></textarea>
 
                             <a href="#" class="contactUs__form-button">Отправить</a>
 
                             <div id="open-modal-contactUs" class="modal-window">
                                 <div>
                                     <a href="#" title="Close" class="modal-close-contactUs">Закрыть</a>
-                                    
-                                    <div class="modal__text" style="text-align: center; line-height: 160%;">Сообщение было отправлено. <br>
+
+                                    <div class="modal__text" style="text-align: center; line-height: 160%;">Сообщение
+                                        было отправлено. <br>
                                         Мы с вами свяжемся!</div>
                                 </div>
                             </div>
@@ -143,7 +148,7 @@
                         <div class="contacts__card">
                             <img src="../img/icons/mail.svg" alt="mail" class="contacts__card-icon">
                             <h3 class="contacts__card-title">Почта</h3>
-                            <div class="contacts__card-info">fitnessfit@gmail.com</div>
+                            <div class="contacts__card-info">gymfit@gmail.com</div>
                         </div>
 
                         <div class="contacts__card">
@@ -175,8 +180,11 @@
                             </div>
 
                             <div class="faq__answer">
-                                Стоимость персональной тренировки в Москве и Московской области от 2000 руб., в других
-                                регионах от 1000 руб. за тренировку в зависимости от загруженности тренера.
+                                Отдел продаж работает в следующие часы:
+                                <br>
+                                Пн-Пт: 08:00 - 21:00 <br>
+                                Сб: 09:00 - 18:00 <br>
+                                Вс: 09:00 - 14:00
                             </div>
                         </div>
 
@@ -209,8 +217,12 @@
                             </div>
 
                             <div class="faq__answer">
-                                Стоимость персональной тренировки в Москве и Московской области от 2000 руб., в других
-                                регионах от 1000 руб. за тренировку в зависимости от загруженности тренера.
+                                У нас представлены три тарифа: <br><br>
+
+                                Базовый - 2000р / месяц <br>
+                                Стандарт - 2200р / месяц <br>
+                                Премиум - 2550р / месяц <br><br>
+                                Вы можете выбрать подходящий для вас тариф и приобрести его по указанной цене. 
                             </div>
                         </div>
 
@@ -226,8 +238,8 @@
                             </div>
 
                             <div class="faq__answer">
-                                Стоимость персональной тренировки в Москве и Московской области от 2000 руб., в других
-                                регионах от 1000 руб. за тренировку в зависимости от загруженности тренера.
+                                Нет, у нас нет лимита по посещению зала. 
+                                <br> Вы можете посещать наш клуб в любое удобное для вас время, согласно расписанию работы зала.
                             </div>
                         </div>
                     </div>
@@ -271,8 +283,6 @@
                                 <li class="footer__nav-item"><a href="./bmiCalculator.html"
                                         class="footer__nav-link">калькулятор
                                         иМТ</a></li>
-                                <li class="footer__nav-item"><a href="./passwordSecurity.html"
-                                        class="footer__nav-link">Защита пароля</a></li>
                                 <li class="footer__nav-item"><a href="./contactUs.html"
                                         class="footer__nav-link">Связаться с нами</a>
                                 </li>
@@ -288,7 +298,7 @@
                             <h3 class="footer__mailing-title">Рассылка</h3>
 
                             <form class="footer__mailing-form">
-                                <input placeholder="Введите свою почту" type="text" class="footer__mailing-input">
+                                <input placeholder="Введите свою почту" type="email" class="footer__mailing-input">
 
                                 <a href="#" class="footer__mailing-button" type="submit">Подписаться</a>
                             </form>
@@ -296,15 +306,15 @@
                             <div id="open-modal" class="modal-window">
                                 <div>
                                     <a href="#" title="Close" class="modal-close">Закрыть</a>
-                                    
+
                                     <div class="modal__text">Вы успешно подписались на рассылку!</div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="footer__bio">
-                            <img src="../img/icons/inst.svg" alt="">
-                            <img src="../img/icons/fb.svg" alt="">
+                            <img src="../img/icons/vk.svg" alt="">
+                            <img src="../img/icons/tg.svg" alt="">
                         </div>
 
                         <div class="footer__return">

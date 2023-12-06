@@ -27,12 +27,12 @@
   font-size: 1.125em;
   font-weight: 600;
 }
+.nav__item:hover {
+  color: #595959;
+}
 
 .nav__link {
   transition: color 0.2s ease;
-}
-.nav__link:hover {
-  color: rgba(31, 31, 31, 0.7098039216);
 }
 
 .nav__button {
@@ -127,8 +127,6 @@
   left: -105%;
   transition: 0.3s linear;
   z-index: 2;
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
 }
 
 .hidden-menu a.nav__link {
@@ -181,8 +179,6 @@
   transition: 0.3s ease-out;
   z-index: 3;
   width: 30px;
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
 }
 
 .btn-menu span {
@@ -203,7 +199,7 @@
 }
 
 .hidden-menu-ticker:checked ~ .btn-menu span.first {
-  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   top: 10px;
 }
 
@@ -212,7 +208,7 @@
 }
 
 .hidden-menu-ticker:checked ~ .btn-menu span.third {
-  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   top: -10px;
 }
 

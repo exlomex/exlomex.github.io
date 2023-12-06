@@ -25,13 +25,14 @@
     font-family: "Lato", sans-serif;
     font-size: 1.125em;
     font-weight: 600;
-}
-.nav__link {
-    transition: color 0.2s ease;
 
     &:hover {
-        color: #1f1f1fb5;
+        color: #595959;
     }
+}
+
+.nav__link {
+    transition: color 0.2s ease;
 }
 
 .nav__button {
@@ -127,7 +128,6 @@
     align-items: flex-start;
     position: fixed;
     list-style: none;
-    // padding: 10px;
     margin: 0;
     width: 100%;
     height: 100vh;
@@ -136,8 +136,8 @@
     left: -105%;
     transition: 0.3s linear;
     z-index: 2;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+    // -webkit-transform: translateZ(0);
+    // -webkit-backface-visibility: hidden;
 }
 .hidden-menu a.nav__link {
     width: 100vw;
@@ -146,7 +146,6 @@
     text-transform: uppercase;
     font-size: 1.375rem;
     font-weight: 800;
-    // color: #312b2a;
     padding: 0 30px;
     transition: 0.3s ease-out;
 }
@@ -187,18 +186,16 @@
 }
 .btn-menu {
     display: none;
-
     color: #fff;
     padding: 4px;
-    // position: fixed;
     top: 5px;
     left: 5px;
     cursor: pointer;
     transition: 0.3s ease-out;
     z-index: 3;
     width: 30px;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+    // -webkit-transform: translateZ(0);
+    // -webkit-backface-visibility: hidden;
 }
 .btn-menu span {
     display: block;
@@ -216,14 +213,14 @@
     left: 0;
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.first {
-    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
     top: 10px;
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.second {
     opacity: 0;
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.third {
-    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     top: -10px;
 }
 
