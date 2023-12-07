@@ -2138,7 +2138,7 @@ body {
   margin: 0 auto;
 }
 
-.body--no-scroll {
+.Without-scroll-body {
   overflow: hidden;
 }
 

@@ -24,6 +24,8 @@ if (formButtonSec) {
                 if (input.value <= 0) {
                     formInfo[index].style.display = 'inline-block';
                     flag = true;
+                } else {
+                    formInfo[index].style.display = 'none';
                 }
             });
         }
