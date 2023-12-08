@@ -15,7 +15,8 @@ if (button) {
         const parseAge = parseInt(age.value);
         const parseGenger = gender.value.toLowerCase();
 
-        if (isNaN(parseHeight) || isNaN(parseWeight) || isNaN(parseAge) || (parseGenger !== 'м' && parseGenger !== 'ж')) {
+        if (isNaN(parseHeight) || isNaN(parseWeight) || isNaN(parseAge) || 
+        (parseGenger !== 'м' && parseGenger !== 'ж')) {
             document.getElementById('resultOutput').value = `Пожалуйста, введите корректные данные.`;
             return;
         }

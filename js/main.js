@@ -61,12 +61,12 @@ if (swiperPrev && swiperNext) {
 }
 
 
-// body with burger menu
+// body with burger
 
-const btnMenu = document.querySelector('.btn-menu')
+const burgerMenu = document.querySelector('.burger-menu')
 
-if (btnMenu) {
-    btnMenu.addEventListener('click', (e) => {
+if (burgerMenu) {
+    burgerMenu.addEventListener('click', (e) => {
         document.body.classList.toggle('Without-scroll-body')
     })
 }

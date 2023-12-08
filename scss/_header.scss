@@ -120,9 +120,8 @@
 }
 
 
-// burger menu
-
-.hidden-menu {
+// burger
+.hidden-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -136,10 +135,8 @@
     left: -105%;
     transition: 0.3s linear;
     z-index: 2;
-    // -webkit-transform: translateZ(0);
-    // -webkit-backface-visibility: hidden;
 }
-.hidden-menu a.nav__link {
+.hidden-block a.nav__link {
     width: 100vw;
 
     text-decoration: none;
@@ -150,14 +147,12 @@
     transition: 0.3s ease-out;
 }
 
-.hidden-menu a:hover {
+.hidden-block a:hover {
     transform: translateX(10px);
 }
 
-.hidden-menu a.nav__button {
+.hidden-block a.nav__button {
     margin-top: 10px;
-    // width: 100vw;
-
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.375rem;
@@ -165,7 +160,7 @@
     transition: 0.3s ease-out;
 }
 
-.hidden-menu li {
+.hidden-block li {
     width: 100vw;
     height: 60px;
     display: flex;
@@ -176,15 +171,15 @@
         color 0.3s ease-in;
 }
 
-.hidden-menu li:hover {
+.hidden-block li:hover {
     background-color: #3e3d41;
     color: var(--green);
 }
 
-.hidden-menu-ticker {
+.hidden-block-input {
     display: none;
 }
-.btn-menu {
+.burger-menu {
     display: none;
     color: #fff;
     padding: 4px;
@@ -194,10 +189,8 @@
     transition: 0.3s ease-out;
     z-index: 3;
     width: 30px;
-    // -webkit-transform: translateZ(0);
-    // -webkit-backface-visibility: hidden;
 }
-.btn-menu span {
+.burger-menu span {
     display: block;
     height: 3px;
     background-color: var(--black);
@@ -205,21 +198,21 @@
     transition: all 0.2s ease-out;
     position: relative;
 }
-.btn-menu span.first {
+.burger-menu span.first {
     margin-top: 0;
 }
 
-.hidden-menu-ticker:checked ~ .hidden-menu {
+.hidden-block-input:checked ~ .hidden-block {
     left: 0;
 }
-.hidden-menu-ticker:checked ~ .btn-menu span.first {
+.hidden-block-input:checked ~ .burger-menu span.first {
     transform: rotate(45deg);
     top: 10px;
 }
-.hidden-menu-ticker:checked ~ .btn-menu span.second {
+.hidden-block-input:checked ~ .burger-menu span.second {
     opacity: 0;
 }
-.hidden-menu-ticker:checked ~ .btn-menu span.third {
+.hidden-block-input:checked ~ .burger-menu span.third {
     transform: rotate(-45deg);
     top: -10px;
 }
@@ -305,7 +298,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .btn-menu {
+    .burger-menu {
         display: block;
         visibility: visible;
     }
