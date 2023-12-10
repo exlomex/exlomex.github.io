@@ -478,6 +478,9 @@
   gap: 0 18px;
   margin-bottom: 35px;
 }
+.footer__bio img {
+  cursor: pointer;
+}
 .footer__return {
   display: flex;
   align-items: center;
@@ -1975,6 +1978,9 @@
 .trainers-inner .card-tr__link {
   display: flex;
   gap: 0 18px;
+}
+.trainers-inner .card-tr__link img {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1465px) {

@@ -133,6 +133,11 @@
 
         margin-bottom: 35px;
     }
+
+    &__bio img{
+        cursor: pointer;
+    }
+
     &__return {
         display: flex;
         align-items: center;

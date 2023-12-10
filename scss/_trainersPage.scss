@@ -66,6 +66,10 @@
                 display: flex;
                 gap: 0 18px;
             }
+
+            &__link img {
+                cursor: pointer;
+            }
         }
     }
 }
